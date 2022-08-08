@@ -1,0 +1,10 @@
+print("Hello, What's your name?")
+Name = input()
+print("Nice to meet you " + Name)
+print("How old are you?")
+age = input()
+# input() always takes input as string. not as int or float
+print(type(age))
+birth_year = 2022 - int(age)
+answer = str(birth_year)
+print("You are born in " + answer)
