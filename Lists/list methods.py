@@ -1,18 +1,26 @@
-places_visited = ['India', 'Nepal', 'Malaysia', 'Bhutan', 'USA', 'maldives', 'bangladesh']
+places_visited = [
+    "India",
+    "Nepal",
+    "Malaysia",
+    "Bhutan",
+    "USA",
+    "maldives",
+    "bangladesh",
+]
 
 # index() method : certain element kun index e ache ta dekhabe
-print(places_visited.index('Bhutan'))
+print(places_visited.index("Bhutan"))
 
 # append() method: notun element last e add korbe
-places_visited.append('Africa')
+places_visited.append("Africa")
 print(places_visited)
 
 # insert() method: certain index e notun element add korbe
-places_visited.insert(2, 'UK')
+places_visited.insert(2, "UK")
 print(places_visited)
 
 # remove() method: 1ta certain element remove korbe
-places_visited.remove('Nepal')
+places_visited.remove("Nepal")
 print(places_visited)
 
 # sort() method: chuto theke boro ba boro theke chuto

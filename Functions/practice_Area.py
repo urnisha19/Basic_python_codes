@@ -11,7 +11,9 @@ The function should be able to print 4 basic shapes: Circle, Rectangle, Square,T
 
 
 def area_func():
-    print("Enter the shape to find the area(e,g circle,triangle, rectangle, square,trapezium): ")
+    print(
+        "Enter the shape to find the area(e,g circle,triangle, rectangle, square,trapezium): "
+    )
     shape = input()
 
     if shape == "circle":
@@ -36,7 +38,7 @@ def area_func():
     elif shape == "square":
         print("Please Enter the length: ")
         length = float(input())
-        area = length ** 2
+        area = length**2
         print("The area is: " + str(area))
     elif shape == "trapezium":
         print("Please Enter the side 1 : ")

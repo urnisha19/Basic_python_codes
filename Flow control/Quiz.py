@@ -26,9 +26,9 @@ for i in range(5):
 print(num)
 
 # 3
-x=0
-while (x < 100):
-    x+=2
+x = 0
+while x < 100:
+    x += 2
 if x % 33 == 0:
     print("This is an awkward loop!")
 

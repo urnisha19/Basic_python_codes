@@ -1,6 +1,6 @@
 # this program simulates a password-protected app access
 
-password_bank = {'Sam': 1234, 'Smith': 909090, 'Ruth': 120987}
+password_bank = {"Sam": 1234, "Smith": 909090, "Ruth": 120987}
 matched = False
 x = 0  # loop control variable
 
@@ -17,7 +17,12 @@ while x < 5:
                 print("Access Granted")
                 break
             else:
-                print('Wrong password. Enter again: ' + ' you have ' + str(2 - i) + ' tries left')
+                print(
+                    "Wrong password. Enter again: "
+                    + " you have "
+                    + str(2 - i)
+                    + " tries left"
+                )
     else:
         print("There is no such name in password_bank. Try again")
     x = x + 1

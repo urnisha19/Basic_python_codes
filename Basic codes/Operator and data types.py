@@ -11,7 +11,7 @@ print(9 / 5)
 # 5. integer division(gives only integer removing the fraction point)
 print(9 // 5)
 # 6.Exponent
-print(9 ** 5)
+print(9**5)
 
 # data types
 # integer

@@ -1,5 +1,5 @@
-my_stuff = {'book': 'cookbook', 'phone': 'iphone', 'home': 'Bangladesh'}
-print(my_stuff['book'])
+my_stuff = {"book": "cookbook", "phone": "iphone", "home": "Bangladesh"}
+print(my_stuff["book"])
 
 x = {0: 100, 1: 200, 3: 400}
 print(x[1])

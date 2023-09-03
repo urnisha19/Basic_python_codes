@@ -12,5 +12,7 @@ for current_row in range(0, number_of_row):
         print(end=" ")  # end=" "==> without new line simply a space print
 
     for star in range(0, current_row + 1):
-        print("*", end="")  # end="" ==> just print star then avoid a new line with end=""
+        print(
+            "*", end=""
+        )  # end="" ==> just print star then avoid a new line with end=""
     print(" ")  # a new line

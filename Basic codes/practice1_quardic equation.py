@@ -14,10 +14,10 @@ c = int(c_str)
 
 
 # formula
-D = math.sqrt(b*b - 4*a*c)
+D = math.sqrt(b * b - 4 * a * c)
 
 # ans
-x1 = (-b + D)/(2*a)
-x2 = (-b - D)/(2*a)
+x1 = (-b + D) / (2 * a)
+x2 = (-b - D) / (2 * a)
 print(x1)
 print(x2)

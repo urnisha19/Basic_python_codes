@@ -6,4 +6,4 @@ print(q[0:5])  # 1st to 5th element will print
 print(q[2:6])  # 3rd to 6th element will print
 print(q[0:-3])  # except last 3 elements, all elements will print
 print(q[:4])  # 1st 4 element will print
-print(q[0:]) # 0 index theke all element print korbe
+print(q[0:])  # 0 index theke all element print korbe

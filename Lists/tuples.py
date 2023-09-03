@@ -1,5 +1,5 @@
 # Tuple example
-tup = (1, 2, 3, 4, 'hello', 9.9)
+tup = (1, 2, 3, 4, "hello", 9.9)
 print(tup)
 print(type(tup))
 print(tup[4])

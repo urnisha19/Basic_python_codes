@@ -15,12 +15,12 @@ Do this until the left sublist is less than the right one
 # It returns index of x in given array arr if present,
 # else returns -1
 
+
 def binary_search(list, x):
     low = 0
     high = len(list) - 1
 
     while low <= high:
-
         mid = (high + low) // 2
 
         # If x is greater, ignore left half

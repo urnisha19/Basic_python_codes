@@ -8,4 +8,4 @@ print("world")
 # 2
 print("a", "b", "c")
 
-print("a", "b", "c", sep=',')  # sep skips space after every string
+print("a", "b", "c", sep=",")  # sep skips space after every string

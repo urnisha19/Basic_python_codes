@@ -19,7 +19,7 @@ def game_func(guessed_age, secret):
 for i in range(1, 6):
     print("Take a guess. You have " + str(6 - i) + " guesses left")
     guess = input()
-    if game_func(int(guess), secret_age) == 'Correct':
+    if game_func(int(guess), secret_age) == "Correct":
         print("You won the game")
         flag = True
         break

@@ -11,18 +11,18 @@ p2 = input()
 def game(a, b):
     if a == b:
         return "Tie"
-    elif a == 'rock':
-        if b == 'scissor':
+    elif a == "rock":
+        if b == "scissor":
             return "rock beats scissor"
         else:
             return "paper beats rock"
-    elif a == 'scissor':
-        if b == 'paper':
+    elif a == "scissor":
+        if b == "paper":
             return "scissor beats scissor"
         else:
             return "rock beats rock"
-    elif a == 'paper':
-        if b == 'rock':
+    elif a == "paper":
+        if b == "rock":
             return "paper beats scissor"
         else:
             return "scissor beats rock"

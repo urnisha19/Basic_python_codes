@@ -7,7 +7,7 @@ print(a)
 
 
 def f(some_list):
-    some_list.append('ok')
+    some_list.append("ok")
 
 
 x = [1, 2, 3]
